@@ -1,6 +1,7 @@
 
 <div align="center">
-[![](https://raw.githubusercontent.com/loukotal/tracktor/master/assets/static/img/logo.svg)]
+  
+![](https://raw.githubusercontent.com/loukotal/tracktor/master/assets/static/img/logo.svg)](https://github.com/loukotal/tracktor/edit/main/README.md)
 
 # Time Tracktor
 A CLI time tracker.
