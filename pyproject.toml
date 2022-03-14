@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tracktor"
+version = "0.1.0"
+description = ""
+authors = ["Lukas Loukota <lukasloukota94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+tracktor = "tracktor.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.4.0"}
+rich = "^12.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
